@@ -29,7 +29,7 @@ const Header = () => {
           >
             Contact Us
           </Link>
-          <Link to="/">
+          <Link to="/RequestDemo">
             <button className="bg-gradient-to-r from-zinc-800 to-zinc-900 text-[#f49c00] px-6 py-1.5 font-semibold rounded-md shadow transition-all hover:scale-105 ">
               Request Demo{" "}
             </button>

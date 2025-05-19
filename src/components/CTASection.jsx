@@ -14,9 +14,6 @@ const CTASection = () => {
         <button className="bg-gradient-to-r from-zinc-800 to-zinc-900 text-[#f49c00] px-6 py-1.5 font-semibold rounded-md shadow transition-all hover:scale-105 ">
           Schedule a Demo
         </button>
-        <button className="bg-gradient-to-r from-zinc-800 to-zinc-900 text-[#f49c00] px-6 py-1.5 font-semibold rounded-md shadow transition-all hover:scale-105 ">
-          Start Free Trial
-        </button>
       </div>
     </div>
   );

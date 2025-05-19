@@ -1,19 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import ContactUs from "../assets/contact-us.png";
 import { Building2, Mail, MessageCircle, Send, User } from "lucide-react";
 
 const ContactUsForm = () => {
-  const [name, setName] = React.useState("");
-  const [company, setCompany] = React.useState("");
-  const [email, setEmail] = React.useState("");
-  const [message, setMessage] = React.useState("");
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
 
   const handleSubmit = () => {
-    alert(
-      `Message sent!\nName: ${name}\nCompany: ${company}\nEmail: ${email}\nMessage: ${message}`
-    );
+    alert(`Message sent!\nName: ${name}\nEmail: ${email}\nMessage: ${message}`);
     setName("");
-    setCompany("");
     setEmail("");
     setMessage("");
   };
@@ -25,7 +21,7 @@ const ContactUsForm = () => {
         <div className="flex items-center justify-center">
           <img
             src={ContactUs}
-            className="bg-gray-300 h-full w-full rounded-lg flex items-center justify-center"
+            className="object-contain h-full w-full rounded-lg flex items-center justify-center"
           ></img>
         </div>
 
@@ -47,21 +43,6 @@ const ContactUsForm = () => {
                     placeholder="John Doe"
                     value={name}
                     onChange={(e) => setName(e.target.value)}
-                    className="w-full outline-none"
-                  />
-                </div>
-              </div>
-              <div>
-                <label className="block text-sm font-medium text-gray-700">
-                  Company
-                </label>
-                <div className="mt-1 flex items-center border border-gray-300 rounded-md p-2">
-                  <Building2 className="h-5 w-5 text-gray-400 mr-2" />
-                  <input
-                    type="text"
-                    placeholder="Company Name"
-                    value={company}
-                    onChange={(e) => setCompany(e.target.value)}
                     className="w-full outline-none"
                   />
                 </div>

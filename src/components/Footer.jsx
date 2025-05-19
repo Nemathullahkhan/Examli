@@ -29,23 +29,15 @@ const Footer = () => {
               <li>
                 <a
                   className="text-sm hover:text-white transition-colors"
-                  href="/features"
+                  href="/about"
                 >
-                  Features
+                  About
                 </a>
               </li>
               <li>
                 <a
                   className="text-sm hover:text-white transition-colors"
-                  href="/blog"
-                >
-                  Blog
-                </a>
-              </li>
-              <li>
-                <a
-                  className="text-sm hover:text-white transition-colors"
-                  href="/contact-us"
+                  href="/contact"
                 >
                   Contact Us
                 </a>
@@ -56,14 +48,6 @@ const Footer = () => {
                   href="/login"
                 >
                   Login
-                </a>
-              </li>
-              <li>
-                <a
-                  className="text-sm hover:text-white transition-colors"
-                  href="/register"
-                >
-                  Register
                 </a>
               </li>
             </ul>

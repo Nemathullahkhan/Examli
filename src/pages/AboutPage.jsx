@@ -30,86 +30,60 @@ export default function AboutPageExamli() {
           </p>
         </section>
 
-        <section className="mb-10">
-          <h2 className="text-3xl tracking-tight font-semibold mb-4">
-            What Makes Examli Different
-          </h2>
-          <ul className="list-disc list-inside space-y-0.5 mx-2">
-            <li>
-              <span className="font-bold text-lg">User-Friendly Design:</span>{" "}
-              We focus on making the platform intuitive for educators and
-              students of all technical backgrounds.
-            </li>
-            <li>
-              <span className="font-bold text-lg">AI-Powered Insights:</span>{" "}
-              Beyond raw data, our AI interprets results to provide personalized
-              feedback, helping teachers tailor their approach and students
-              understand how to improve.
-            </li>
-            <li>
-              <span className="font-bold text-lg">
-                Comprehensive Reporting:
-              </span>{" "}
-              Examli delivers detailed reports at student, section, and class
-              levels, enabling targeted interventions and academic planning.
-            </li>
-            <li>
-              <span className="font-bold text-lg">
-                Data Security & Privacy:
-              </span>{" "}
-              We prioritize the security of your data with encrypted storage and
-              controlled access, ensuring trust and compliance.
-            </li>
-          </ul>
-        </section>
-
         {/* Trying new  */}
         <section className="mb-10">
-  <div
-    className="h-full w-full bg-[#f49c00] rounded-md bg-clip-padding backdrop-filter backdrop-blur-3xl bg-opacity-10 border border-gray-100 flex flex-col items-center"
-  >
-    <div className="w-full rounded-lg p-6">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 lg:gap-10 items-center">
-        <div className="w-full rounded-md flex flex-col items-center justify-center bg-zinc-700/60 shadow-lg shadow-zinc-900/50">
-          <img
-            src={AboutImage}
-            alt="Examli panel"
-            className="w-full h-auto rounded-md"
-          />
-        </div>
-        <div className="flex flex-col justify-center">
-          <h3 className="text-3xl text-zinc-800/90 tracking-tight font-semibold mb-4">
-            What Makes Examli Different
-          </h3>
-          <ul className="list-disc list-inside space-y-2 mx-2 text-stone-800">
-            <li>
-              <span className="font-bold text-lg">User-Friendly Design:</span>{' '}
-              We focus on making the platform intuitive for educators and
-              students of all technical backgrounds.
-            </li>
-            <li>
-              <span className="font-bold text-lg">AI-Powered Insights:</span>{' '}
-              Beyond raw data, our AI interprets results to provide
-              personalized feedback, helping teachers tailor their approach
-              and students understand how to improve.
-            </li>
-            <li>
-              <span className="font-bold text-lg">Comprehensive Reporting:</span>{' '}
-              Examli delivers detailed reports at student, section, and
-              class levels, enabling targeted interventions and academic
-              planning.
-            </li>
-            <li>
-              <span className="font-bold text-lg">Data Security & Privacy:</span>{' '}
-              We prioritize the security of your data with encrypted
-              storage and controlled access, ensuring trust and compliance.
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+          <div className="h-full w-full bg-[#f49c00] rounded-md bg-clip-padding backdrop-filter backdrop-blur-3xl bg-opacity-10 border border-gray-100 flex flex-col items-center">
+            <div className="w-full rounded-lg p-6">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 lg:gap-10 items-center">
+                <div className="w-full rounded-md flex flex-col items-center justify-center bg-zinc-700/60 shadow-lg shadow-zinc-900/50">
+                  <img
+                    src={AboutImage}
+                    alt="Examli panel"
+                    className="w-full h-auto rounded-md"
+                  />
+                </div>
+                <div className="flex flex-col justify-center">
+                  <h3 className="text-3xl text-zinc-800/90 tracking-tight font-semibold mb-4">
+                    What Makes Examli Different
+                  </h3>
+                  <ul className="list-disc list-inside space-y-2 mx-2 text-stone-800">
+                    <li>
+                      <span className="font-bold text-lg">
+                        User-Friendly Design:
+                      </span>{" "}
+                      We focus on making the platform intuitive for educators
+                      and students of all technical backgrounds.
+                    </li>
+                    <li>
+                      <span className="font-bold text-lg">
+                        AI-Powered Insights:
+                      </span>{" "}
+                      Beyond raw data, our AI interprets results to provide
+                      personalized feedback, helping teachers tailor their
+                      approach and students understand how to improve.
+                    </li>
+                    <li>
+                      <span className="font-bold text-lg">
+                        Comprehensive Reporting:
+                      </span>{" "}
+                      Examli delivers detailed reports at student, section, and
+                      class levels, enabling targeted interventions and academic
+                      planning.
+                    </li>
+                    <li>
+                      <span className="font-bold text-lg">
+                        Data Security & Privacy:
+                      </span>{" "}
+                      We prioritize the security of your data with encrypted
+                      storage and controlled access, ensuring trust and
+                      compliance.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
 
         <section>
           <h2 className="text-3xl tracking-tight font-semibold mb-2">

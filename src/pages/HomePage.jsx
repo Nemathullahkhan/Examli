@@ -5,7 +5,6 @@ import {
   LineChart,
   Upload,
   FolderPlus,
-  Link,
   Brain,
 } from "lucide-react";
 import Panel1Image from "../assets/panel1.png";
@@ -15,6 +14,7 @@ import Panel4 from "../assets/panel4.png";
 import FeatureSection from "../components/FeatureSection";
 import CTASection from "../components/CTASection";
 import Testimonials from "../components/Testimonials";
+import { Link } from "react-router-dom";
 
 export default function HomePageExamli() {
   return (
@@ -22,10 +22,10 @@ export default function HomePageExamli() {
       {/* Header Section */}
       <header className="bg-gradient-to-b from-[#f49c00] to-[#f8b645] text-white py-12 px-4 sm:px-6 text-center">
         <div className="max-w-5xl mx-auto">
-          <h1 className="text-6xl tracking-tight font-bold  mt-24 ">
+          <h1 className="text-6xl tracking-tight font-bold mt-16 ">
             Examli transforms raw exam data
           </h1>
-          <h1 className="text-6xl tracking-tight font-bold mb-6 ">
+          <h1 className="text-6xl tracking-tight font-bold mb-16 ">
             into meaningful insights
           </h1>
           <p className="text-md max-w-3xl mx-auto mt-10 mb-6">
@@ -33,12 +33,11 @@ export default function HomePageExamli() {
             feedback at every level — from individual students to entire classes
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4 sm:gap-6">
-            <button className="bg-gradient-to-r from-zinc-800 to-zinc-900 text-[#f49c00]  py-1.5 font-semibold rounded-md shadow transition-all hover:scale-105 w-44 h-12">
-              Request Demo
-            </button>
-            <button className="bg-gradient-to-r from-zinc-800 to-zinc-900 text-[#f49c00]  py-1.5 font-semibold rounded-md shadow transition-all hover:scale-105 w-44 ">
-              See How It Works
-            </button>
+            <Link to ="/requestDemo">
+              <button className="bg-gradient-to-r from-zinc-800 to-zinc-900 text-[#f49c00]  py-1.5 font-semibold rounded-md shadow transition-all hover:scale-105 w-44 h-12">
+                Request Demo
+              </button>
+            </Link>
           </div>
         </div>
       </header>
