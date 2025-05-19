@@ -6,9 +6,9 @@ const Header = () => {
     <header className="bg-[#f49c00] text-white py-4 px-6 ">
       <div className="max-w-6xl mx-auto flex items-center justify-between">
         <div className="flex items-center gap-3">
-          <div className=" ">
+          <Link to ="/" >
             <img src={logoWhite} alt="Examli Logo" className="h-10" />
-          </div>
+          </Link>
         </div>
         <nav className="space-x-8 items-center text-md text-zinc-100">
           <Link to="/" className="hover:text-white">

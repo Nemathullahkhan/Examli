@@ -14,6 +14,7 @@ import Panel3 from "../assets/panel3.png";
 import Panel4 from "../assets/panel4.png";
 import FeatureSection from "../components/FeatureSection";
 import CTASection from "../components/CTASection";
+import Testimonials from "../components/Testimonials";
 
 export default function HomePageExamli() {
   return (
@@ -123,8 +124,8 @@ export default function HomePageExamli() {
 
       {/* How It Works */}
       <section className="py-8 px-8 mt-20">
-        <div className="max-w-5xl mx-auto bg-white/70  text-gray-300 p-4 rounded-md shadow-lg shadow-zinc-400/10">
-          <h2 className="text-4xl tracking-tight font-bold text-center mb-5 text-zinc-700">
+        <div className="max-w-6xl mx-auto bg-gradient-to-r from-transparent via-amber-500/30 to-transparent  text-gray-300 p-4 rounded-md shadow-lg shadow-zinc-400/10">
+          <h2 className="text-4xl tracking-tight font-bold text-center mb-5 backdrop-blur-md text-zinc-700">
             How Examli Works
           </h2>
           <div className="flex flex-col gap-2 justify-center max-w-4xl mx-auto">
@@ -178,20 +179,10 @@ export default function HomePageExamli() {
       </section>
 
       {/* Testimonials */}
-      <section className="py-12 px-8 bg-white text-center">
-        <div className="max-w-3xl mx-auto">
-          <blockquote className="italic text-lg text-gray-700 mb-4">
-            “Examli has made our assessment process seamless. Teachers can now
-            focus on teaching, not compiling reports.”
-          </blockquote>
-          <p className="font-semibold text-gray-800">
-            — Principal, The Sun School, Vizianagaram
-          </p>
-        </div>
-      </section>
+      <Testimonials />
 
       {/* Call to Action */}
-      <CTASection/>
+      <CTASection />
     </div>
   );
 }

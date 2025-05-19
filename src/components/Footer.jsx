@@ -1,5 +1,5 @@
 import React from "react";
-import logoOrange from "../assets/logo-website-orange.png"
+import logoOrange from "../assets/logo-website-orange.png";
 const Footer = () => {
   return (
     <footer class="bg-gradient-to-b from-zinc-800 to-zinc-900 text-gray-300">
@@ -147,7 +147,7 @@ const Footer = () => {
       <div className="border-t border-gray-800">
         <div className="max-w-6xl mx-auto px-4 py-4">
           <p className="text-sm text-center">
-            ©2025 Datape. All rights reserved.
+            ©2025 Neonflake Enterprises OPC Pvt Ltd. All rights reserved.
           </p>
         </div>
       </div>
