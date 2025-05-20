@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const CTASection = () => {
   return (
@@ -11,9 +12,11 @@ const CTASection = () => {
         performance, generate insights — all in minutes.
       </p>
       <div className="space-x-4">
-        <button className="bg-gradient-to-r from-zinc-800 to-zinc-900 text-[#f49c00] px-6 py-1.5 font-semibold rounded-md shadow transition-all hover:scale-105 ">
-          Schedule a Demo
-        </button>
+        <Link to="/requestDemo">
+          <button className="bg-gradient-to-r from-zinc-800 to-zinc-900 text-[#f49c00] px-6 py-1.5 font-semibold rounded-md shadow transition-all hover:scale-105 ">
+            Schedule a Demo
+          </button>
+        </Link>
       </div>
     </div>
   );

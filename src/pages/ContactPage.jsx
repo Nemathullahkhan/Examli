@@ -23,24 +23,23 @@ const ContactPage = () => {
                   <div className="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center text-center transition-all hover:scale-95">
                     <Phone className="w-12 h-10 text-[#f49c00] mb-2" />
                     <h3 className="text-lg font-semibold mb-2">Phone</h3>
-                    <p className="text-gray-600">+1 (555) 123-4567</p>
-                    <p className="text-gray-600">Mon-Fri 9am-6pm EST</p>
+                    <p className="text-gray-600">+91 8977002747 </p>
+                    <p className="text-gray-600">Mon-Fri 9am-6pm IST</p>
                   </div>
 
                   {/* Email Card */}
                   <div className="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center text-center transition-all hover:scale-95">
                     <Mail className="w-12 h-10 text-[#f49c00] mb-2" />
                     <h3 className="text-lg font-semibold mb-2">Email</h3>
-                    <p className="text-gray-600">support@datape.com</p>
-                    <p className="text-gray-600">sales@datape.com</p>
+                    <p className="text-gray-600">hello@neonflake.com</p>
                   </div>
 
                   {/* Office Card */}
                   <div className="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center text-center transition-all hover:scale-95">
                     <MapPinIcon className="w-12 h-10 text-[#f49c00] mb-2" />
                     <h3 className="text-lg font-semibold mb-2">Office</h3>
-                    <p className="text-gray-600">123 Data Street</p>
-                    <p className="text-gray-600">San Francisco, CA 94105</p>
+                    <p className="text-gray-600">303, Meridian Plaza </p>
+                    <p className="text-gray-600">Ameerpet, Hyderabad</p>
                   </div>
                 </div>
               </div>

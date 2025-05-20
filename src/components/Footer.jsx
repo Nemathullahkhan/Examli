@@ -21,7 +21,7 @@ const Footer = () => {
               <li>
                 <a
                   className="text-sm hover:text-white transition-colors"
-                  href="/home"
+                  href="/"
                 >
                   Home
                 </a>
